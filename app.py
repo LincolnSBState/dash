@@ -87,4 +87,4 @@ def update_results(n_clicks, query, speakers, n_results):
     return summary_output, quotes_output
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
